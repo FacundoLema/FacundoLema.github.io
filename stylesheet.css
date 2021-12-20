@@ -1,6 +1,19 @@
 /* CSS Document */
 
-body {padding: 0% 20% 10%;}
+@media screen and (max-width: 600px) {
+	body {padding:  0% 12.5% 10%;}
+	h3 {font-size: 16px}
+	h4 {font-size: 12px;}
+	p {font-size: 14px;}
+	li {font-size: 12px;}
+	sub {font-size: 10px;}
+}
+
+@media screen and (min-width: 600px) {
+	body {padding: 0% 20% 10%;}
+	li {font-size: small;}
+	h4 {font-size: 14px;}
+}
 
 p {text-align: justify; line-height: 1.35em;}
 
@@ -45,13 +58,10 @@ li {padding: 5px 10px;
 	background-color: #D9D9F5;
 	border-radius: 5px;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
-	font-weight: 300;
-	font-size: small;}
+}
 
 h4 {
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
-	font-size: 14px;
-	font-weight: 400;
 	border-left: 3px solid #6666cc;
 	border-radius: 5px;
 	padding: 5px 10px;
