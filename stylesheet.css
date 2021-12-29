@@ -1,8 +1,7 @@
 /* CSS Document */
 
-/*
-@media screen and (max-width: 1100px) {
-	body {padding:  0% 10% 10%; zoom: 120%;}
+@media screen and (min-width: 100px) {
+	body {padding:  0% 10% 10%; zoom: 120%; background-color: lightblue;}
 	h3 {font-size: 16px}
 	h4 {font-size: 12px;}
 	p {font-size: 14px;}
@@ -10,14 +9,38 @@
 	sub {font-size: 10px;}
 }
 
-@media screen and (min-width: 1100px) {
-	body {padding: 0% 20% 10%;}
-	li {font-size: small;}
-	h4 {font-size: 14px;}
+@media screen and (min-width: 300px) and (min-height:100px) {
+	body {padding:  0% 10% 10%; zoom: 120%; background-color: green;}
+	h3 {font-size: 16px}
+	h4 {font-size: 12px;}
+	p {font-size: 14px;}
+	li {font-size: 12px;}
+	sub {font-size: 10px;}
 }
-*/
 
-body {max-width: 1000px; margin: auto; padding: 0% 10% 5%;}
+@media screen and (min-width: 400px) and (min-height:600px) {
+	body {padding:  0% 10% 10%; zoom: 120%; background-color: yellow;}
+	h3 {font-size: 16px}
+	h4 {font-size: 12px;}
+	p {font-size: 14px;}
+	li {font-size: 12px;}
+	sub {font-size: 10px;}
+}
+
+@media screen and (min-width: 600px) and (min-height:800px){
+	body {padding:  0% 10% 10%; zoom: 120%; background-color: orange;}
+	h3 {font-size: 16px}
+	h4 {font-size: 12px;}
+	p {font-size: 14px;}
+	li {font-size: 12px;}
+	sub {font-size: 10px;}
+}
+
+/* @media screen and (max-width: 1000px) {
+	body {padding: 0% 20% 10%; background-color: red;}
+	li {font-size: small;}
+	h4 {font-size: 14px;} */
+}
 
 p {text-align: justify; line-height: 1.35em;}
 
