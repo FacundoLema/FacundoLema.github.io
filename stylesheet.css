@@ -55,12 +55,12 @@
 }
 
 @media screen and (min-width: 900px) and (min-height:800px){
-	body {padding:  0% 10% 10%; zoom: 120%; background-color: pink;}
-	h3 {font-size: 16px}
-	h4 {font-size: 12px;}
-	p {font-size: 14px;}
-	li {font-size: 12px;}
-	sub {font-size: 10px;}
+	body {background-color: pink;}
+	h3 {font-size: 100%}
+	h4 {font-size: 75%;}
+	p {font-size: 100%;}
+	li {font-size: 75%;}
+	sub {font-size: 75%;}
 }
 
 @media screen and (min-width: 1050px) and (min-height:800px){
