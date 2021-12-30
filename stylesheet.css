@@ -27,7 +27,7 @@
 	sub {font-size: 10px;}
 }
 
-@media screen and (min-width: 600px) and (min-height:800px){
+@media screen and (min-width: 600px) and (min-height:700px){
 	body {padding:  0% 10% 10%; zoom: 120%; background-color: orange;}
 	h3 {font-size: 16px}
 	h4 {font-size: 12px;}
@@ -38,6 +38,24 @@
 
 @media screen and (min-width: 700px) and (min-height:800px){
 	body {padding:  0% 10% 10%; zoom: 120%; background-color: lightgreen;}
+	h3 {font-size: 16px}
+	h4 {font-size: 12px;}
+	p {font-size: 14px;}
+	li {font-size: 12px;}
+	sub {font-size: 10px;}
+}
+
+@media screen and (min-width: 800px) and (min-height:800px){
+	body {padding:  0% 10% 10%; zoom: 120%; background-color: lightblue;}
+	h3 {font-size: 16px}
+	h4 {font-size: 12px;}
+	p {font-size: 14px;}
+	li {font-size: 12px;}
+	sub {font-size: 10px;}
+}
+
+@media screen and (min-width: 900px) and (min-height:800px){
+	body {padding:  0% 10% 10%; zoom: 120%; background-color: pink;}
 	h3 {font-size: 16px}
 	h4 {font-size: 12px;}
 	p {font-size: 14px;}
