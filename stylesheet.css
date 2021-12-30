@@ -63,7 +63,7 @@
 	sub {font-size: 10px;}
 }
 
-@media screen and (min-width: 1100px) and (min-height:800px){
+@media screen and (min-width: 1050px) and (min-height:800px){
 	body {padding:  0% 10% 10%; zoom: 120%; background-color: lightgray;}
 	h3 {font-size: 16px}
 	h4 {font-size: 12px;}
