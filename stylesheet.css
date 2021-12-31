@@ -1,83 +1,5 @@
 /* CSS Document */
 
-@media screen and (min-width: 100px) {
-	body {padding:  0% 10% 10%; zoom: 120%; background-color: lightblue;}
-	h3 {font-size: 16px}
-	h4 {font-size: 12px;}
-	p {font-size: 14px;}
-	li {font-size: 12px;}
-	sub {font-size: 10px;}
-}
-
-@media screen and (min-width: 300px) and (min-height:100px) {
-	body {padding:  0% 10% 10%; zoom: 120%; background-color: green;}
-	h3 {font-size: 16px}
-	h4 {font-size: 12px;}
-	p {font-size: 14px;}
-	li {font-size: 12px;}
-	sub {font-size: 10px;}
-}
-
-@media screen and (min-width: 400px) and (min-height:600px) {
-	body {padding:  0% 10% 10%; zoom: 120%; background-color: yellow;}
-	h3 {font-size: 16px}
-	h4 {font-size: 12px;}
-	p {font-size: 14px;}
-	li {font-size: 12px;}
-	sub {font-size: 10px;}
-}
-
-@media screen and (min-width: 600px) and (min-height:700px){
-	body {padding:  0% 10% 10%; zoom: 120%; background-color: orange;}
-	h3 {font-size: 16px}
-	h4 {font-size: 12px;}
-	p {font-size: 14px;}
-	li {font-size: 12px;}
-	sub {font-size: 10px;}
-}
-
-@media screen and (min-width: 700px) and (min-height:800px){
-	body {padding:  0% 10% 10%; zoom: 120%; background-color: lightgreen;}
-	h3 {font-size: 16px}
-	h4 {font-size: 12px;}
-	p {font-size: 14px;}
-	li {font-size: 12px;}
-	sub {font-size: 10px;}
-}
-
-@media screen and (min-width: 800px) and (min-height:800px){
-	body {padding:  0% 10% 10%; zoom: 120%; background-color: lightblue;}
-	h3 {font-size: 16px}
-	h4 {font-size: 12px;}
-	p {font-size: 14px;}
-	li {font-size: 12px;}
-	sub {font-size: 10px;}
-}
-
-@media screen and (min-width: 900px) and (min-height:800px){
-	body {background-color: rgb(73, 167, 139);}
-	h3 {font-size: 100%}
-	h4 {font-size: 75%;}
-	p {font-size: 100%;}
-	li {font-size: 75%;}
-	sub {font-size: 75%;}
-}
-
-@media screen and (min-width: 1050px) and (min-height:800px){
-	body {padding:  0% 10% 10%; zoom: 120%; background-color: lightgray;}
-	h3 {font-size: 16px}
-	h4 {font-size: 12px;}
-	p {font-size: 14px;}
-	li {font-size: 12px;}
-	sub {font-size: 10px;}
-}
-
-/* @media screen and (max-width: 1000px) {
-	body {padding: 0% 20% 10%; background-color: red;}
-	li {font-size: small;}
-	h4 {font-size: 14px;}
-} */
-
 p {text-align: justify; line-height: 1.35em;}
 
 .flex-container {
@@ -129,4 +51,16 @@ h4 {
 	border-radius: 5px;
 	padding: 5px 10px;
 	background-color: #EEE; 
+}
+
+@media screen and (max-width: 1200px) {
+	body {padding:  0% 10% 10%;}
+	h4 {font-size: 14px;}
+	li {font-size: 14px;}
+}
+
+@media screen and (min-width: 1200px) {
+	body {padding: 0% 25% 10%;}
+	button {font-size: medium;}
+	p {font-size: large;}
 }
