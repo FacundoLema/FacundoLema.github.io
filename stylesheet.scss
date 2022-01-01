@@ -1,0 +1,61 @@
+$round: 3px;
+$rounder: 5px;
+$black: #000;
+$grey: #EEE;
+$lightpurple: #D9D9F5;
+$purple: #b6b6f2;
+$darkpurple: #6666cc;
+
+@mixin round-corners($radius: $round) {border-radius: $radius;}
+@mixin flex-row {display: flex; flex-direction: row;}
+@mixin font {font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;}
+@mixin left-border {border-left: 3px solid $darkpurple;}
+
+body {padding: 0 10% 10%;}
+p {text-align: justify; line-height: 1.35em;}
+sub {vertical-align: baseline;}
+
+.flex-nav {@include flex-row; justify-content: space-between; margin: 5% 0 10% 0;}
+.languages, .home {background-color: $grey; border: none; @include round-corners}
+.language {background: none; border: none; @include round-corners}
+.active, .language:hover, .home:hover {background-color: $lightpurple;}
+
+a { text-decoration: none; padding: 0 3px;
+	background-color: $lightpurple; color: $black;
+	@include round-corners;}
+
+a:hover {background-color: $purple;}
+
+h4 {@include font; @include left-border; @include round-corners($rounder);
+    background-color: $grey; padding: 5px 10px;}
+
+ul.skills {@include flex-row; flex-wrap: wrap; list-style: none; padding: 0 20px;}
+
+li {padding: 5px 10px; margin: 5px; 
+    background-color: $lightpurple; 
+    @include round-corners; @include font;}
+
+.experience {padding: inherit;}
+
+h4.job-title {margin-bottom: 5px; border-radius: 5px 10px 0 5px;}
+
+.time-period {@include flex-row; justify-content: flex-end;}
+
+.time-period h5 {
+    @include font; @include left-border; 
+    border-radius: 20px 0 20px 20px;
+    background-color: $lightpurple;
+    width: 25%; margin: 0; padding: 5px; text-align: center;}
+
+@media screen and (max-width: 1200px) {
+    body {padding:  0% 10% 10%;}
+    h4 {font-size: 14px;}
+    li {font-size: 14px;}
+    .time-period h5 {font-size: small;}}
+
+@media screen and (max-width: 600px) {.time-period h5 {font-size: 11px;}}
+
+@media screen and (min-width: 1200px) {
+    body {padding: 0% 25% 10%;}
+    button {font-size: medium;}
+    p {font-size: large;}}
