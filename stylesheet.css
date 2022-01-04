@@ -96,6 +96,40 @@ h4.job-title {
   text-align: center;
 }
 
+mark {
+  background-color: inherit;
+  color: #6666cc;
+  float: right;
+}
+
+.education {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 5% 0 10% 0;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.something {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+  border-radius: 5px;
+  background-color: #EEE;
+  padding: 3px 0;
+  margin: 0 0 10px 10px;
+}
+
+.tag-box {
+  border-radius: 3px;
+  display: inline;
+  padding: 3px 10px;
+  font-size: 14px;
+}
+
+.purple {
+  background-color: #b6b6f2;
+}
+
 @media screen and (max-width: 1200px) {
   body {
     padding: 0% 10% 10%;
@@ -118,6 +152,11 @@ h4.job-title {
     font-size: 11px;
   }
 }
+@media screen and (max-width: 800px) {
+  .time-period h5 {
+    width: 35%;
+  }
+}
 @media screen and (min-width: 1200px) {
   body {
     padding: 0% 25% 10%;
@@ -129,6 +168,10 @@ h4.job-title {
 
   p {
     font-size: large;
+  }
+
+  .tag-box {
+    font-size: 14px;
   }
 }
 

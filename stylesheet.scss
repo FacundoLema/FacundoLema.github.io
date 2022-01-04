@@ -47,6 +47,14 @@ h4.job-title {margin-bottom: 5px; border-radius: 5px 10px 0 5px;}
     background-color: $lightpurple;
     width: 25%; margin: 0; padding: 5px; text-align: center;}
 
+mark {background-color: inherit; color: $darkpurple; float: right;}
+
+.education {@include flex-row; justify-content: flex-start; margin: 5% 0 10% 0; flex-wrap: wrap; padding: 0 20px;}
+
+.something {@include font; @include round-corners($rounder); background-color: $grey; padding: 3px 0; margin: 0 0 10px 10px;}
+.tag-box {@include round-corners; display: inline; padding: 3px 10px; font-size: 14px;}
+.purple {background-color: $purple;}
+
 @media screen and (max-width: 1200px) {
     body {padding:  0% 10% 10%;}
     h4 {font-size: 14px;}
@@ -55,7 +63,10 @@ h4.job-title {margin-bottom: 5px; border-radius: 5px 10px 0 5px;}
 
 @media screen and (max-width: 600px) {.time-period h5 {font-size: 11px;}}
 
+@media screen and (max-width: 800px) {.time-period h5 {width: 35%;}}
+
 @media screen and (min-width: 1200px) {
     body {padding: 0% 25% 10%;}
     button {font-size: medium;}
-    p {font-size: large;}}
+    p {font-size: large;}
+    .tag-box {font-size: 14px;}}
