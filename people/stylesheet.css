@@ -32,6 +32,7 @@ sub {
 
 .active, .language:hover, .home:hover {
   background-color: #D9D9F5;
+  transition: background-color 100ms ease-in;
 }
 
 a {

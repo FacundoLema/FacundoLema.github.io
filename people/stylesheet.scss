@@ -18,7 +18,9 @@ sub {vertical-align: baseline;}
 .flex-nav {@include flex-row; justify-content: space-between; margin: 5% 0 10% 0;}
 .languages, .home {background-color: $grey; border: none; @include round-corners}
 .language {background: none; border: none; @include round-corners}
-.active, .language:hover, .home:hover {background-color: $lightpurple;}
+.active, .language:hover, .home:hover {
+    background-color: $lightpurple; 
+    transition: background-color 100ms ease-in;}
 
 a { text-decoration: none; padding: 0 3px;
 	background-color: $lightpurple; color: $black;
